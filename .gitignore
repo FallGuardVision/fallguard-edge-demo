@@ -1,0 +1,3 @@
+py311-env/
+__pycache__/
+*.pyc
