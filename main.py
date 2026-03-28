@@ -14,7 +14,7 @@ def main():
     
     print("Camera initialized. Press 'ESC' or 'q' to exit.")
     
-    frame_count = 0
+    frame_count: int = 0
     landmark_names = [lm.name for lm in mp_pose.PoseLandmark]
 
     with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as pose:
